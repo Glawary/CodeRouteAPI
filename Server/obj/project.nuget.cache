@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "akG4RGxPEHDzoVXDQ9mLmkn8yviV4Gd2qyfscjF6IfbqlDNpsUtHhUy/gm1z43EstpbUjvL8EusNmDD1fXI63w==",
+  "dgSpecHash": "n+1MuX0CPY5Nx9Zn6UIrY9nPlLxdBCP9d2159JrYOsQixEAzMehtrjoScS65pvRR2AeUlR2qgifof/MgQ/CqwQ==",
   "success": true,
-  "projectFilePath": "D:\\МИСиС\\7 Сем\\Методология разработки\\CodeRoute\\CodeRoute.csproj",
+  "projectFilePath": "D:\\МИСиС\\7 Сем\\Методология разработки\\CodeRoute\\Server\\CodeRoute.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\79035\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.12\\microsoft.entityframeworkcore.7.0.12.nupkg.sha512",
     "C:\\Users\\79035\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.12\\microsoft.entityframeworkcore.abstractions.7.0.12.nupkg.sha512",

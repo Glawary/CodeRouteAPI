@@ -1,5 +1,7 @@
 using CodeRoute.Repositories;
 using CodeRoute.Services;
+using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
@@ -26,7 +28,12 @@ namespace CodeRoute
 
 
             builder.Services.AddScoped<RouteService>();
+            builder.Services.AddScoped<UserService>();
+
+
             builder.Services.AddScoped<RouteRepository>();
+            builder.Services.AddScoped<UserRepository>();
+            builder.Services.AddScoped<VertexRepository>();
 
 
             var app = builder.Build();
@@ -41,8 +48,6 @@ namespace CodeRoute
             //Перенаправляет HTTP на HTTPS
             app.UseHttpsRedirection();
             app.MapControllers();
-
-            app.UseCors();
 
             app.Run();
         }

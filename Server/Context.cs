@@ -11,18 +11,6 @@ namespace CodeRoute
             //Database.EnsureCreated();
         }
 
-        /*
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        {
-            optionsBuilder.UseNpgsql(
-                "Host=localhost;" +
-                "Port=5432;" +
-                "Database=code_route;" +
-                "Username=postgres;" +
-                "Password=admin");
-        }
-        */
-
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<UserRoute>().HasKey(ur => new { ur.UserId, ur.RouteId});
@@ -31,6 +19,8 @@ namespace CodeRoute
             modelBuilder.Entity<VertexConnection>().HasKey(ur => new { ur.CurrentVertexId, ur.PreviousVertexId});
 
 
+            modelBuilder.Entity<User>().HasIndex(u => u.Email).IsUnique();
+            modelBuilder.Entity<Models.Route>().HasIndex(r => r.Title).IsUnique();
         }
 
         public DbSet<User> Users { get; set; }
