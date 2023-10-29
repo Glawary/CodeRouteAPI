@@ -6,7 +6,7 @@ ssh -p 2425 root@10.0.2.15 /bin/bash <<EOF
   cd CodeRouteAPI
   git add .
   git commit -m "Local changes"
-  git pull origin master
+  git pull origin main
   cp -r Server/* /var/www/test_backend_app/CodeRoute/Server/
   exit
 EOF
