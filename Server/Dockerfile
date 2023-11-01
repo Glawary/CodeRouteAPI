@@ -1,7 +1,6 @@
 FROM mcr.microsoft.com/dotnet/aspnet:7.0
 WORKDIR /app
  
-RUN dotnet restore
 RUN dotnet build
  
 EXPOSE 5001/tcp
