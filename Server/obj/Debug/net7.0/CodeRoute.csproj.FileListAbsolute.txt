@@ -72,3 +72,40 @@ D:\МИСиС\7 Сем\Методология разработки\CodeRoute\Ser
 D:\МИСиС\7 Сем\Методология разработки\CodeRoute\Server\obj\Debug\net7.0\CodeRoute.pdb
 D:\МИСиС\7 Сем\Методология разработки\CodeRoute\Server\obj\Debug\net7.0\CodeRoute.genruntimeconfig.cache
 D:\МИСиС\7 Сем\Методология разработки\CodeRoute\Server\obj\Debug\net7.0\ref\CodeRoute.dll
+C:\dotnet\dotnet_app\CodeRouteAPI\Server\bin\Debug\net7.0\appsettings.Development.json
+C:\dotnet\dotnet_app\CodeRouteAPI\Server\bin\Debug\net7.0\appsettings.json
+C:\dotnet\dotnet_app\CodeRouteAPI\Server\bin\Debug\net7.0\CodeRoute.exe
+C:\dotnet\dotnet_app\CodeRouteAPI\Server\bin\Debug\net7.0\CodeRoute.deps.json
+C:\dotnet\dotnet_app\CodeRouteAPI\Server\bin\Debug\net7.0\CodeRoute.runtimeconfig.json
+C:\dotnet\dotnet_app\CodeRouteAPI\Server\bin\Debug\net7.0\CodeRoute.dll
+C:\dotnet\dotnet_app\CodeRouteAPI\Server\bin\Debug\net7.0\CodeRoute.pdb
+C:\dotnet\dotnet_app\CodeRouteAPI\Server\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+C:\dotnet\dotnet_app\CodeRouteAPI\Server\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\dotnet\dotnet_app\CodeRouteAPI\Server\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\dotnet\dotnet_app\CodeRouteAPI\Server\bin\Debug\net7.0\Microsoft.OpenApi.dll
+C:\dotnet\dotnet_app\CodeRouteAPI\Server\bin\Debug\net7.0\Npgsql.dll
+C:\dotnet\dotnet_app\CodeRouteAPI\Server\bin\Debug\net7.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\dotnet\dotnet_app\CodeRouteAPI\Server\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\dotnet\dotnet_app\CodeRouteAPI\Server\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\dotnet\dotnet_app\CodeRouteAPI\Server\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\dotnet\dotnet_app\CodeRouteAPI\Server\obj\Debug\net7.0\CodeRoute.csproj.AssemblyReference.cache
+C:\dotnet\dotnet_app\CodeRouteAPI\Server\obj\Debug\net7.0\CodeRoute.GeneratedMSBuildEditorConfig.editorconfig
+C:\dotnet\dotnet_app\CodeRouteAPI\Server\obj\Debug\net7.0\CodeRoute.AssemblyInfoInputs.cache
+C:\dotnet\dotnet_app\CodeRouteAPI\Server\obj\Debug\net7.0\CodeRoute.AssemblyInfo.cs
+C:\dotnet\dotnet_app\CodeRouteAPI\Server\obj\Debug\net7.0\CodeRoute.csproj.CoreCompileInputs.cache
+C:\dotnet\dotnet_app\CodeRouteAPI\Server\obj\Debug\net7.0\CodeRoute.MvcApplicationPartsAssemblyInfo.cs
+C:\dotnet\dotnet_app\CodeRouteAPI\Server\obj\Debug\net7.0\CodeRoute.MvcApplicationPartsAssemblyInfo.cache
+C:\dotnet\dotnet_app\CodeRouteAPI\Server\obj\Debug\net7.0\staticwebassets\msbuild.CodeRoute.Microsoft.AspNetCore.StaticWebAssets.props
+C:\dotnet\dotnet_app\CodeRouteAPI\Server\obj\Debug\net7.0\staticwebassets\msbuild.build.CodeRoute.props
+C:\dotnet\dotnet_app\CodeRouteAPI\Server\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.CodeRoute.props
+C:\dotnet\dotnet_app\CodeRouteAPI\Server\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.CodeRoute.props
+C:\dotnet\dotnet_app\CodeRouteAPI\Server\obj\Debug\net7.0\staticwebassets.pack.json
+C:\dotnet\dotnet_app\CodeRouteAPI\Server\obj\Debug\net7.0\staticwebassets.build.json
+C:\dotnet\dotnet_app\CodeRouteAPI\Server\obj\Debug\net7.0\staticwebassets.development.json
+C:\dotnet\dotnet_app\CodeRouteAPI\Server\obj\Debug\net7.0\scopedcss\bundle\CodeRoute.styles.css
+C:\dotnet\dotnet_app\CodeRouteAPI\Server\obj\Debug\net7.0\CodeRoute.csproj.CopyComplete
+C:\dotnet\dotnet_app\CodeRouteAPI\Server\obj\Debug\net7.0\CodeRoute.dll
+C:\dotnet\dotnet_app\CodeRouteAPI\Server\obj\Debug\net7.0\refint\CodeRoute.dll
+C:\dotnet\dotnet_app\CodeRouteAPI\Server\obj\Debug\net7.0\CodeRoute.pdb
+C:\dotnet\dotnet_app\CodeRouteAPI\Server\obj\Debug\net7.0\CodeRoute.genruntimeconfig.cache
+C:\dotnet\dotnet_app\CodeRouteAPI\Server\obj\Debug\net7.0\ref\CodeRoute.dll
