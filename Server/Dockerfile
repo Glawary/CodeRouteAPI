@@ -13,7 +13,6 @@ FROM mcr.microsoft.com/dotnet/aspnet:7.0
  
 RUN apt-get update
 RUN apt-get install -y nginx
-COPY nginx/default.conf /etc/nginx/sites-enabled/default
  
 WORKDIR /app
 COPY --from=build /app ./
