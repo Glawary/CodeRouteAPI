@@ -1,13 +1,3 @@
-FROM mcr.microsoft.com/dotnet/sdk:7.0 AS build
- 
-WORKDIR /source
-
-COPY ./*.csproj .
-RUN dotnet restore 
- 
-# COPY from Source to Container, dot mean current directory for both source and container
-COPY . .
- 
 FROM mcr.microsoft.com/dotnet/aspnet:7.0
  
 RUN apt-get update
