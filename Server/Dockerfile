@@ -7,7 +7,6 @@ RUN dotnet restore
  
 # COPY from Source to Container, dot mean current directory for both source and container
 COPY . .
-RUN dotnet publish -c release -o /app --no-restore
  
 FROM mcr.microsoft.com/dotnet/aspnet:7.0
  
