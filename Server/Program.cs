@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Builder;
 
 [assembly: ApiController]
 
@@ -37,6 +38,9 @@ namespace CodeRoute
 
 
             var app = builder.Build();
+
+            app.UseMiddleware<ExceptionMiddleware>();
+
 
             app.UseSwagger()
                 .UseSwaggerUI(c =>

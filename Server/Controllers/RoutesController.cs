@@ -31,7 +31,7 @@ namespace CodeRoute.Controllers
 
             if (result == null)
             {
-                return NotFound();
+                return NotFound("Такого нету");
             }
 
             return Ok(result);
