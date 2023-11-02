@@ -20,4 +20,6 @@ WORKDIR /Application
 # Скопируем файлы приложения из предыдущего образа 
 COPY --from=builder /Application/output .
 # укажем команду, которая будет запускать приложение
+EXPOSE 5001/tcp
+ENV ASPNETCORE_URLS http://*:5001
 ENTRYPOINT ["dotnet", "CodeRoute.dll"]
