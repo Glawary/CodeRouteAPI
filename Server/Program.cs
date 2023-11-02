@@ -5,6 +5,8 @@ using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Builder;
+using System;
+using Microsoft.OpenApi.Models;
 
 [assembly: ApiController]
 
@@ -42,17 +44,27 @@ namespace CodeRoute
             app.UseMiddleware<ExceptionMiddleware>();
 
 
-            app.UseSwagger()
-                .UseSwaggerUI(c =>
-                {
-                    c.SwaggerEndpoint("/swagger/v1/swagger.json", "v1");
-                });
+            //Изменение базового пути
+            //app.UsePathBase("/api");
+
+
+            //Настройа сваггера
+            app.UseSwagger(c =>
+            {
+                c.RouteTemplate = "{documentName}/swagger.json";
+            });
+
+            app.UseSwaggerUI(c =>
+            {
+                c.SwaggerEndpoint("/v1/swagger.json", "v1");
+                c.RoutePrefix = "api/swagger";
+            });
 
 
             //Перенаправляет HTTP на HTTPS
             app.UseHttpsRedirection();
-            app.MapControllers();
 
+            app.MapControllers();
             app.Run();
         }
     }
