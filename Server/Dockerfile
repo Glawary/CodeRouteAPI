@@ -20,4 +20,4 @@ WORKDIR /Application
 # Скопируем файлы приложения из предыдущего образа 
 COPY --from=builder /Application/output .
 # укажем команду, которая будет запускать приложение
-ENTRYPOINT ["dotnet", "run"]
+ENTRYPOINT ["dotnet", "CodeRoute.dll"]
