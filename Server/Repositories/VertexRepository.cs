@@ -22,6 +22,15 @@ namespace CodeRoute.Repositories
                 .Where(uv => uv.Vertex.RouteId == routeId);
         }
 
+        public IEnumerable<UserVertex> GetAllVertexFromRoute(int routeId)
+        {
+            var test = _context.Vetexes.ToList();
+            return _context.UserVertexes
+                .Include(uv => uv.Vertex)
+                .Include(uv => uv.Status)
+                .Where(uv => uv.Vertex.RouteId == routeId);
+        }
+
 
         public IEnumerable<VertexConnection> GetAllVertexConnectionsInRoute(int routeId)
         {

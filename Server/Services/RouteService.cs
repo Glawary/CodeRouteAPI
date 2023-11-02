@@ -38,6 +38,9 @@ namespace CodeRoute.Services
         internal RouteInfo GetRouteById(int routId, int userId)
         {
             Models.Route route = _routeRepository.GetRouteById(routId);
+
+            if (route == null) return null;
+
             Roadmap map = new Roadmap()
             {
                 Title = route.Title,
@@ -45,6 +48,11 @@ namespace CodeRoute.Services
             };
 
             List<UserVertex> vertices = _vertexRepository.GetAllVertexFromRoute(routId, userId).ToList();
+            if (vertices.Count == 0)
+            {
+                vertices = _vertexRepository.GetAllVertexFromRoute(routId).ToList();
+            }
+
             List<VertexConnection> connections = _vertexRepository.GetAllVertexConnectionsInRoute(routId).ToList();
 
             List<Node> nodes = GetNodeList(vertices, connections);
@@ -108,10 +116,7 @@ namespace CodeRoute.Services
         {
             RoadmapProgress progress = new RoadmapProgress();
 
-            if (nodes == null)
-            {
-                return progress;
-            }
+            if (nodes == null) return progress;
 
             foreach (var node in nodes)
             {
@@ -119,7 +124,6 @@ namespace CodeRoute.Services
                 if (node.Status == "Skip") progress.Skipped++;
                 if (node.Status == "Done") progress.Finished++;
                 progress.Total++;
-
 
                 RoadmapProgress secondaryProg = CalcProgress(node.SecondatyNode);
 
@@ -129,7 +133,14 @@ namespace CodeRoute.Services
                 progress.Total += secondaryProg.Total;
             }
 
-            progress.Precent = progress.Finished * 1.0f / progress.Total;
+            if (progress.Finished == 0)
+            {
+                progress.Precent = 0.0f;
+            }
+            else
+            {
+                progress.Precent = progress.Finished * 1.0f / progress.Total;
+            }
 
             return progress;
         }
