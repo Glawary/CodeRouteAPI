@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace CodeRoute.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
+    [Route("api/[controller]")]
     public class RoutesController : ControllerBase
     {
         private readonly RouteService _routeService;
@@ -31,7 +31,7 @@ namespace CodeRoute.Controllers
 
             if (result == null)
             {
-                return NotFound();
+                return NotFound("Такого нету");
             }
 
             return Ok(result);
