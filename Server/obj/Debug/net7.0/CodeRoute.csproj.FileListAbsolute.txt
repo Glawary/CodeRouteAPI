@@ -72,3 +72,5 @@ D:\МИСиС\7 Сем\Методология разработки\CodeRoute\Ser
 D:\МИСиС\7 Сем\Методология разработки\CodeRoute\Server\obj\Debug\net7.0\CodeRoute.pdb
 D:\МИСиС\7 Сем\Методология разработки\CodeRoute\Server\obj\Debug\net7.0\CodeRoute.genruntimeconfig.cache
 D:\МИСиС\7 Сем\Методология разработки\CodeRoute\Server\obj\Debug\net7.0\ref\CodeRoute.dll
+D:\МИСиС\7 Сем\Методология разработки\CodeRoute\Server\bin\Debug\net7.0\Prometheus.NetStandard.dll
+D:\МИСиС\7 Сем\Методология разработки\CodeRoute\Server\bin\Debug\net7.0\Prometheus.AspNetCore.dll

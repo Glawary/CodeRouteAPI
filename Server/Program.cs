@@ -7,6 +7,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Builder;
 using System;
 using Microsoft.OpenApi.Models;
+using Prometheus;
 
 [assembly: ApiController]
 
@@ -17,6 +18,9 @@ namespace CodeRoute
         public static void Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
+
+            builder.Logging.ClearProviders();
+            builder.Logging.AddConsole();
 
             builder.Services.AddControllers();
             builder.Services.AddSwaggerGen();
@@ -43,9 +47,9 @@ namespace CodeRoute
 
             app.UseMiddleware<ExceptionMiddleware>();
 
-
-            //Изменение базового пути
-            //app.UsePathBase("/api");
+            //Метрики прометеуса
+            app.UseMetricServer();
+            app.UseHttpMetrics();
 
 
             //Настройа сваггера
@@ -63,6 +67,8 @@ namespace CodeRoute
 
             //Перенаправляет HTTP на HTTPS
             app.UseHttpsRedirection();
+
+            app.UseRouting();
 
             app.MapControllers();
             app.Run();
