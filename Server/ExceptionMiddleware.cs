@@ -1,4 +1,5 @@
-﻿using static System.Net.Mime.MediaTypeNames;
+﻿using System.Diagnostics;
+using static System.Net.Mime.MediaTypeNames;
 
 namespace CodeRoute
 {
@@ -15,7 +16,7 @@ namespace CodeRoute
         {
             try
             {
-                await next.Invoke(context);
+                await next(context);
             }
             catch (Exception ex)
             {
@@ -24,6 +25,14 @@ namespace CodeRoute
                 WriteError(path, ex.Message);
 
                 context.Response.StatusCode = 500;
+
+                await Results.Problem(
+                    title: "я где-то проебался, сорри",
+                    statusCode: StatusCodes.Status500InternalServerError,
+                    extensions: new Dictionary<string, object>
+                    {
+                        { "traceId", Activity.Current?.Id }
+                    }).ExecuteAsync(context);
             }
         }
 
