@@ -3,7 +3,7 @@
 namespace CodeRoute.Controllers
 {
     [ApiController]
-    [Route("api/[controller]")]
+    [Route("[controller]")]
     public class TestController : ControllerBase
     {
         public TestController()
