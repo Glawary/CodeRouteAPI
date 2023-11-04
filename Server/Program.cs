@@ -50,6 +50,7 @@ namespace CodeRoute
             //Метрики прометеуса
             app.UseMetricServer();
             app.UseHttpMetrics();
+            app.MapMetrics();
 
 
             //Настройа сваггера
