@@ -62,7 +62,7 @@ namespace CodeRoute
             app.UseSwaggerUI(c =>
             {
                 c.SwaggerEndpoint("/v1/swagger.json", "v1");
-                c.RoutePrefix = "api/swagger";
+                c.RoutePrefix = "swagger";
             });
 
 

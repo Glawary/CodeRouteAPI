@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace CodeRoute.Controllers
 {
     [ApiController]
-    [Route("api/[controller]")]
+    [Route("[controller]")]
     public class RoutesController : ControllerBase
     {
         private readonly RouteService _routeService;
