@@ -5,7 +5,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace CodeRoute.Controllers
 {
     [ApiController]
-    [Route("api/[controller]")]
+    [Route("[controller]")]
     public class UserController : ControllerBase
     {
         private UserService _userService;
@@ -14,8 +14,6 @@ namespace CodeRoute.Controllers
         {
             _userService = userService;
         }
-
-
 
         [HttpPost]
         public IActionResult RegisterUser([FromBody] UserLogInfo user)
