@@ -1,13 +1,13 @@
-﻿using CodeRoute.DTO;
+﻿using CodeRoute.DAL.Repositories;
+using CodeRoute.DTO;
 using CodeRoute.Models;
-using CodeRoute.Repositories;
 using Microsoft.EntityFrameworkCore.ChangeTracking.Internal;
 
 namespace CodeRoute.Services
 {
     public class RouteService
     {
-        private static readonly int specialValue = 3228;
+        private static readonly int specialValue = 1;
 
         private readonly RouteRepository _routeRepository;
         private readonly VertexRepository _vertexRepository;
@@ -35,7 +35,12 @@ namespace CodeRoute.Services
             return _routeRepository.AddRoute(route);
         }
 
-        internal RouteInfo GetRouteById(int routId, int userId)
+        internal RouteInfo GetRouteByIdForUser(int routId, int userId)
+        {
+            return null;
+        }
+
+        internal RouteInfo GetRouteById(int routId)
         {
             Models.Route route = _routeRepository.GetRouteById(routId);
 
@@ -47,7 +52,7 @@ namespace CodeRoute.Services
                 Desctiption = route.Desctiption,
             };
 
-            List<UserVertex> vertices = _vertexRepository.GetAllVertexFromRoute(routId, userId).ToList();
+            List<Vertex> vertices = _vertexRepository.GetAllVertexFromRoute(routId).ToList();
             if (vertices.Count == 0)
             {
                 vertices = _vertexRepository.GetAllVertexFromRoute(routId).ToList();
@@ -69,7 +74,7 @@ namespace CodeRoute.Services
             return info;
         }
 
-        private List<Node> GetNodeList(List<UserVertex> vertices, List<VertexConnection> connections)
+        private List<Node> GetNodeList(List<Vertex> vertices, List<VertexConnection> connections)
         {
             var mainAxisIds = connections.Select(c => c.CurrentVertexId).Distinct().ToList();
             var mainAxis = connections.Select(c => c.CurrentVertex).Distinct().ToList();
@@ -100,11 +105,12 @@ namespace CodeRoute.Services
             return nodes;
         }
 
-        private Node NodeFromVertex(Vertex vertex, IEnumerable<UserVertex> vertices)
+        private Node NodeFromVertex(Vertex vertex, IEnumerable<Vertex> vertices)
         {
-            VertexStatus stat = vertices.FirstOrDefault(v => v.VertexId == vertex.VertexId).Status;
+            VertexStatus stat = new VertexStatus() { StatusId = 1, StatusName = "Не изучено" };
             Node node = new Node()
             {
+                Id = vertex.VertexId,
                 Title = vertex.Name,
                 Status = stat.StatusName,
             };

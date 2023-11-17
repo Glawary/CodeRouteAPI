@@ -1,12 +1,13 @@
 ﻿using System.Diagnostics;
+using System.Net;
+using System.Runtime.CompilerServices;
 using static System.Net.Mime.MediaTypeNames;
 
-namespace CodeRoute
+namespace CodeRoute.ExceptionWare
 {
     public class ExceptionMiddleware
     {
         private readonly RequestDelegate next;
-
         public ExceptionMiddleware(RequestDelegate next)
         {
             this.next = next;

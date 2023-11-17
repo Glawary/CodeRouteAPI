@@ -1,0 +1,64 @@
+Information: Now listening on: http://localhost:5000
+Information: Application started. Press Ctrl+C to shut down.
+Information: Hosting environment: Production
+Information: Content root path: D:\МИСиС\7 Сем\Методология разработки\CodeRoute\Server\bin\Release\net7.0
+Information: Now listening on: http://localhost:5000
+Information: Application started. Press Ctrl+C to shut down.
+Information: Hosting environment: Production
+Information: Content root path: D:\МИСиС\7 Сем\Методология разработки\CodeRoute\Server\bin\Release\net7.0
+Warning: Failed to determine the https port for redirect.
+Error: An error occurred using the connection to database '' on server ''.
+Error: An exception occurred while iterating over the results of a query for context type 'CodeRoute.DAL.Context'.
+System.InvalidOperationException: The ConnectionString property has not been initialized.
+   at Npgsql.NpgsqlConnection.Open(Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenDbConnection(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternal(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+Information: Now listening on: http://localhost:5000
+Information: Application started. Press Ctrl+C to shut down.
+Information: Hosting environment: Production
+Information: Content root path: D:\МИСиС\7 Сем\Методология разработки\CodeRoute\Server\bin\Release\net7.0
+Warning: Failed to determine the https port for redirect.
+Information: Executed DbCommand (13ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT count(*)::int
+FROM "Routes" AS r
+Information: Get all routes request
+Warning: The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+Information: Executed DbCommand (9ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT r."RouteId", r."Desctiption", r."MarkDownPage", r."Title"
+FROM "Routes" AS r
+OFFSET @__p_0
+Information: Now listening on: http://localhost:5001
+Information: Now listening on: https://localhost:5002
+Information: Application started. Press Ctrl+C to shut down.
+Information: Hosting environment: Production
+Information: Content root path: D:\МИСиС\7 Сем\Методология разработки\CodeRoute\Server\bin\Release\net7.0
+Information: Executed DbCommand (14ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT count(*)::int
+FROM "Routes" AS r
+Information: Get all routes request
+Warning: The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+Information: Executed DbCommand (4ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT r."RouteId", r."Desctiption", r."MarkDownPage", r."Title"
+FROM "Routes" AS r
+OFFSET @__p_0
+Information: Now listening on: http://localhost:5001
+Information: Now listening on: https://localhost:5003
+Information: Application started. Press Ctrl+C to shut down.
+Information: Hosting environment: Production
+Information: Content root path: D:\МИСиС\7 Сем\Методология разработки\CodeRoute\Server\bin\Release\net7.0
+Information: Executed DbCommand (13ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT count(*)::int
+FROM "Routes" AS r
+Information: Get all routes request
+Warning: The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+Information: Executed DbCommand (4ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT r."RouteId", r."Desctiption", r."MarkDownPage", r."Title"
+FROM "Routes" AS r
+OFFSET @__p_0

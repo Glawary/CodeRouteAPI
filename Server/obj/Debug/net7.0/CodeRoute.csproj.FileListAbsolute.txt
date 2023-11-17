@@ -74,3 +74,11 @@ D:\МИСиС\7 Сем\Методология разработки\CodeRoute\Ser
 D:\МИСиС\7 Сем\Методология разработки\CodeRoute\Server\obj\Debug\net7.0\ref\CodeRoute.dll
 D:\МИСиС\7 Сем\Методология разработки\CodeRoute\Server\bin\Debug\net7.0\Prometheus.NetStandard.dll
 D:\МИСиС\7 Сем\Методология разработки\CodeRoute\Server\bin\Debug\net7.0\Prometheus.AspNetCore.dll
+D:\МИСиС\7 Сем\Методология разработки\CodeRoute\Server\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\МИСиС\7 Сем\Методология разработки\CodeRoute\Server\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\МИСиС\7 Сем\Методология разработки\CodeRoute\Server\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+D:\МИСиС\7 Сем\Методология разработки\CodeRoute\Server\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+D:\МИСиС\7 Сем\Методология разработки\CodeRoute\Server\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\МИСиС\7 Сем\Методология разработки\CodeRoute\Server\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+D:\МИСиС\7 Сем\Методология разработки\CodeRoute\Server\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+D:\МИСиС\7 Сем\Методология разработки\CodeRoute\Server\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.InMemory.dll

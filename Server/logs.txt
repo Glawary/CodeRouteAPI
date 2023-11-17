@@ -1,0 +1,210 @@
+Warning: Overriding address(es) 'https://localhost:5002, http://localhost:5001'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+Information: Now listening on: http://localhost:5001
+Information: Now listening on: https://localhost:5002
+Information: Application started. Press Ctrl+C to shut down.
+Information: Hosting environment: Development
+Information: Content root path: D:\МИСиС\7 Сем\Методология разработки\CodeRoute\Server
+Warning: Overriding address(es) 'https://localhost:5002, http://localhost:5001'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+Information: Now listening on: http://localhost:5001
+Information: Now listening on: https://localhost:5002
+Information: Application started. Press Ctrl+C to shut down.
+Information: Hosting environment: Development
+Information: Content root path: D:\МИСиС\7 Сем\Методология разработки\CodeRoute\Server
+Information: Get all routes request
+Information: Get route by ID request
+Warning: Storing keys in a directory '/root/.aspnet/DataProtection-Keys' that may not be persisted outside of the container. Protected data will be unavailable when container is destroyed.
+Warning: Overriding address(es) 'https://+:443, http://+:80'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+Information: Now listening on: http://localhost:5001
+Information: Now listening on: https://localhost:5002
+Information: Application started. Press Ctrl+C to shut down.
+Information: Hosting environment: Development
+Information: Content root path: /app
+Warning: Storing keys in a directory '/root/.aspnet/DataProtection-Keys' that may not be persisted outside of the container. Protected data will be unavailable when container is destroyed.
+Warning: Overriding address(es) 'https://+:443, http://+:80'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+Information: Now listening on: http://localhost:5001
+Information: Now listening on: https://localhost:5002
+Information: Application started. Press Ctrl+C to shut down.
+Information: Hosting environment: Development
+Information: Content root path: /app
+Warning: Storing keys in a directory '/root/.aspnet/DataProtection-Keys' that may not be persisted outside of the container. Protected data will be unavailable when container is destroyed.
+Warning: Overriding address(es) 'https://+:443, http://+:80'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+Information: Now listening on: http://localhost:5001
+Information: Now listening on: https://localhost:5002
+Information: Application started. Press Ctrl+C to shut down.
+Information: Hosting environment: Development
+Information: Content root path: /app
+Warning: Storing keys in a directory '/root/.aspnet/DataProtection-Keys' that may not be persisted outside of the container. Protected data will be unavailable when container is destroyed.
+Warning: Overriding address(es) 'https://+:443, http://+:80'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+Information: Now listening on: http://localhost:5001
+Information: Now listening on: https://localhost:5002
+Information: Application started. Press Ctrl+C to shut down.
+Information: Hosting environment: Development
+Information: Content root path: /app
+Warning: Storing keys in a directory '/root/.aspnet/DataProtection-Keys' that may not be persisted outside of the container. Protected data will be unavailable when container is destroyed.
+Warning: Overriding address(es) 'https://+:443, http://+:80'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+Information: Now listening on: http://localhost:5001
+Information: Now listening on: https://localhost:5002
+Information: Application started. Press Ctrl+C to shut down.
+Information: Hosting environment: Development
+Information: Content root path: /app
+Warning: Storing keys in a directory '/root/.aspnet/DataProtection-Keys' that may not be persisted outside of the container. Protected data will be unavailable when container is destroyed.
+Warning: No XML encryptor configured. Key {faa48930-6bb0-48dd-9cce-28725d823981} may be persisted to storage in unencrypted form.
+Warning: Overriding address(es) 'https://+:443, http://+:80'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+Information: Now listening on: http://localhost:5001
+Information: Now listening on: https://localhost:5002
+Information: Application started. Press Ctrl+C to shut down.
+Information: Hosting environment: Development
+Information: Content root path: /app
+Warning: Storing keys in a directory '/root/.aspnet/DataProtection-Keys' that may not be persisted outside of the container. Protected data will be unavailable when container is destroyed.
+Warning: Overriding address(es) 'https://+:443, http://+:80'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+Information: Now listening on: http://localhost:5001
+Information: Now listening on: https://localhost:5002
+Information: Application started. Press Ctrl+C to shut down.
+Information: Hosting environment: Development
+Information: Content root path: /app
+Warning: Overriding address(es) 'https://localhost:5002, http://localhost:5001'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+Information: Now listening on: http://localhost:5001
+Information: Now listening on: https://localhost:5002
+Information: Application started. Press Ctrl+C to shut down.
+Information: Hosting environment: Development
+Information: Content root path: D:\МИСиС\7 Сем\Методология разработки\CodeRoute\Server
+Information: Get all routes request
+Warning: Overriding address(es) 'https://localhost:5002, http://localhost:5001'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+Information: Now listening on: http://localhost:5001
+Information: Now listening on: https://localhost:5002
+Information: Application started. Press Ctrl+C to shut down.
+Information: Hosting environment: Development
+Information: Content root path: D:\МИСиС\7 Сем\Методология разработки\CodeRoute\Server
+Information: Get all routes request
+Warning: Overriding address(es) 'https://localhost:5002, http://localhost:5001'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+Information: Now listening on: http://localhost:5001
+Information: Now listening on: https://localhost:5002
+Information: Application started. Press Ctrl+C to shut down.
+Information: Hosting environment: Development
+Information: Content root path: D:\МИСиС\7 Сем\Методология разработки\CodeRoute\Server
+Information: Get all routes request
+Information: Get all routes request
+Information: Get all routes request
+Information: Get all routes request
+Information: Get all routes request
+Information: Get all routes request
+Information: Get all routes request
+Warning: Overriding address(es) 'https://localhost:5002, http://localhost:5001'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+Information: Now listening on: http://localhost:5001
+Information: Now listening on: https://localhost:5002
+Information: Application started. Press Ctrl+C to shut down.
+Information: Hosting environment: Development
+Information: Content root path: D:\МИСиС\7 Сем\Методология разработки\CodeRoute\Server
+Warning: Overriding address(es) 'https://localhost:5002, http://localhost:5001'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+Information: Now listening on: http://localhost:5001
+Information: Now listening on: https://localhost:5002
+Information: Application started. Press Ctrl+C to shut down.
+Information: Hosting environment: Development
+Information: Content root path: D:\МИСиС\7 Сем\Методология разработки\CodeRoute\Server
+Information: Executed DbCommand (65ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT count(*)::int
+FROM "Routes" AS r
+Information: Get all routes request
+Information: Executed DbCommand (21ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT r."RouteId", r."Desctiption", r."MarkDownPage", r."Title"
+FROM "Routes" AS r
+OFFSET @__p_0
+Warning: Overriding address(es) 'https://localhost:5002, http://localhost:5001'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+Information: Now listening on: http://localhost:5001
+Information: Now listening on: https://localhost:5002
+Information: Application started. Press Ctrl+C to shut down.
+Information: Hosting environment: Development
+Information: Content root path: D:\МИСиС\7 Сем\Методология разработки\CodeRoute\Server
+Information: Executed DbCommand (15ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT count(*)::int
+FROM "Routes" AS r
+Information: Get all routes request
+Information: Executed DbCommand (4ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT r."RouteId", r."Desctiption", r."MarkDownPage", r."Title"
+FROM "Routes" AS r
+OFFSET @__p_0
+Information: Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT count(*)::int
+FROM "Routes" AS r
+Information: Get all routes request
+Information: Executed DbCommand (0ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT r."RouteId", r."Desctiption", r."MarkDownPage", r."Title"
+FROM "Routes" AS r
+OFFSET @__p_0
+Warning: Overriding address(es) 'https://localhost:5002, http://localhost:5001'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+Information: Now listening on: http://localhost:5001
+Information: Now listening on: https://localhost:5002
+Information: Application started. Press Ctrl+C to shut down.
+Information: Hosting environment: Development
+Information: Content root path: D:\МИСиС\7 Сем\Методология разработки\CodeRoute\Server
+Warning: Overriding address(es) 'https://localhost:5002, http://localhost:5001'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+Information: Now listening on: http://localhost:5001
+Information: Now listening on: https://localhost:5002
+Information: Application started. Press Ctrl+C to shut down.
+Information: Hosting environment: Development
+Information: Content root path: D:\МИСиС\7 Сем\Методология разработки\CodeRoute\Server
+Warning: Overriding address(es) 'https://localhost:5002, http://localhost:5001'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+Information: Now listening on: http://localhost:5001
+Information: Now listening on: https://localhost:5002
+Information: Application started. Press Ctrl+C to shut down.
+Information: Hosting environment: Development
+Information: Content root path: D:\МИСиС\7 Сем\Методология разработки\CodeRoute\Server
+Information: Executed DbCommand (15ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT count(*)::int
+FROM "Routes" AS r
+Information: Get all routes request
+Information: Executed DbCommand (5ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT r."RouteId", r."Desctiption", r."MarkDownPage", r."Title"
+FROM "Routes" AS r
+OFFSET @__p_0
+Warning: Overriding address(es) 'https://localhost:5002, http://localhost:5001'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+Information: Now listening on: http://localhost:5001
+Information: Now listening on: https://localhost:5002
+Information: Application started. Press Ctrl+C to shut down.
+Information: Hosting environment: Development
+Information: Content root path: D:\МИСиС\7 Сем\Методология разработки\CodeRoute\Server
+Information: Executed DbCommand (16ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT count(*)::int
+FROM "Routes" AS r
+Information: Get all routes request
+Information: Executed DbCommand (4ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT r."RouteId", r."Desctiption", r."MarkDownPage", r."Title"
+FROM "Routes" AS r
+OFFSET @__p_0
+Warning: Overriding address(es) 'https://localhost:5002, http://localhost:5001'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+Information: Now listening on: http://localhost:5001
+Information: Now listening on: https://localhost:5002
+Information: Application started. Press Ctrl+C to shut down.
+Information: Hosting environment: Development
+Information: Content root path: D:\МИСиС\7 Сем\Методология разработки\CodeRoute\Server
+Warning: Overriding address(es) 'https://localhost:5002, http://localhost:5001'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+Information: Now listening on: http://localhost:5001
+Information: Now listening on: https://localhost:5002
+Information: Application started. Press Ctrl+C to shut down.
+Information: Hosting environment: Development
+Information: Content root path: D:\МИСиС\7 Сем\Методология разработки\CodeRoute\Server
+Information: Executed DbCommand (15ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT count(*)::int
+FROM "Routes" AS r
+Information: Get all routes request
+Information: Executed DbCommand (4ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT r."RouteId", r."Desctiption", r."MarkDownPage", r."Title"
+FROM "Routes" AS r
+OFFSET @__p_0
+Warning: Overriding address(es) 'https://localhost:5002, http://localhost:5001'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+Information: Now listening on: http://localhost:5001
+Information: Now listening on: https://localhost:5002
+Information: Application started. Press Ctrl+C to shut down.
+Information: Hosting environment: Development
+Information: Content root path: D:\МИСиС\7 Сем\Методология разработки\CodeRoute\Server
+Information: Get all routes request
+Information: Executed DbCommand (19ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT r."RouteId", r."Desctiption", r."MarkDownPage", r."Title"
+FROM "Routes" AS r
+OFFSET @__p_0
+Warning: Overriding address(es) 'https://localhost:5002, http://localhost:5001'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+Information: Now listening on: http://localhost:5001
+Information: Now listening on: https://localhost:5002
+Information: Application started. Press Ctrl+C to shut down.
+Information: Hosting environment: Development
+Information: Content root path: D:\МИСиС\7 Сем\Методология разработки\CodeRoute\Server
