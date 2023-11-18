@@ -1,6 +1,6 @@
-﻿using CodeRoute.DTO;
+﻿using CodeRoute.DAL.Repositories;
+using CodeRoute.DTO;
 using CodeRoute.Models;
-using CodeRoute.Repositories;
 
 namespace CodeRoute.Services
 {
@@ -13,17 +13,24 @@ namespace CodeRoute.Services
             _userRepository = userRepository;
         }
 
-        public bool RegisterUser(UserLogInfo user)
+        public bool RegUser(UserLogInfo user)
         {
             User newUser = new User()
             {
-                Email = user.EMail,
+                Email = user.Email,
                 Password = user.Password,
                 UserName = user.UserName,
                 IsAdmin = false
             };
 
             return _userRepository.AddUser(newUser);
+        }
+
+        public User AuthUser(UserLogInfo user)
+        {
+            User newUser = _userRepository.FindUser(user.UserName, user.Email);
+
+            return newUser;
         }
     }
 }
