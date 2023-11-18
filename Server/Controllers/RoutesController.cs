@@ -23,11 +23,10 @@ namespace CodeRoute.Controllers
             return _routeService.GetRoutes();
         }
 
-
-        [HttpGet("{userId}/{routId}", Name = "/get")]
+        [HttpGet("{routId}/{userId}", Name = "/get")]
         public ActionResult<RouteInfo> GetRouteInfoById(int routId, int userId)
         {
-            var result = _routeService.GetRouteById(routId, userId);
+            var result = _routeService.GetRouteByIdForUser(routId, userId);
 
             if (result == null)
             {
@@ -37,6 +36,18 @@ namespace CodeRoute.Controllers
             return Ok(result);
         }
 
+        [HttpGet("{routId}", Name = "/get2")]
+        public ActionResult<RouteInfo> GetRouteInfoById(int routId)
+        {
+            var result = _routeService.GetRouteById(routId);
+
+            if (result == null)
+            {
+                return NotFound("Такого нету");
+            }
+
+            return Ok(result);
+        }
 
         [HttpPost]
         public ActionResult<bool> AddRoute([FromBody] Roadmap roadmap)

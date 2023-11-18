@@ -113,4 +113,15 @@ C:\dotnet\dotnet_app\CodeRouteAPI\Server\obj\Debug\net7.0\ref\CodeRoute.dll
 =======
 D:\МИСиС\7 Сем\Методология разработки\CodeRoute\Server\bin\Debug\net7.0\Prometheus.NetStandard.dll
 D:\МИСиС\7 Сем\Методология разработки\CodeRoute\Server\bin\Debug\net7.0\Prometheus.AspNetCore.dll
+<<<<<<< HEAD
 >>>>>>> 25d7fc65bf0a696d8a1314a71bca0da40607660a
+=======
+D:\МИСиС\7 Сем\Методология разработки\CodeRoute\Server\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\МИСиС\7 Сем\Методология разработки\CodeRoute\Server\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\МИСиС\7 Сем\Методология разработки\CodeRoute\Server\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+D:\МИСиС\7 Сем\Методология разработки\CodeRoute\Server\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+D:\МИСиС\7 Сем\Методология разработки\CodeRoute\Server\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\МИСиС\7 Сем\Методология разработки\CodeRoute\Server\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+D:\МИСиС\7 Сем\Методология разработки\CodeRoute\Server\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+D:\МИСиС\7 Сем\Методология разработки\CodeRoute\Server\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.InMemory.dll
+>>>>>>> 972a5f04d34e25a551b9fd95054a6f81752db562

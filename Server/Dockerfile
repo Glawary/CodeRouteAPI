@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # укажем, на основе какого образа будем 
 # делать наш контейнер. Для сборки приложения используем dotnet-sdk 
 # и назовём этот образ builder
@@ -21,3 +22,27 @@ WORKDIR /Application
 COPY --from=builder /Application/output .
 # укажем команду, которая будет запускать приложение
 ENTRYPOINT ["dotnet", "run"]
+=======
+#See https://aka.ms/customizecontainer to learn how to customize your debug container and how Visual Studio uses this Dockerfile to build your images for faster debugging.
+
+FROM mcr.microsoft.com/dotnet/aspnet:7.0 AS base
+WORKDIR /app
+EXPOSE 80
+EXPOSE 443
+
+FROM mcr.microsoft.com/dotnet/sdk:7.0 AS build
+WORKDIR /src
+COPY ["CodeRoute.csproj", "."]
+RUN dotnet restore "./CodeRoute.csproj"
+COPY . .
+WORKDIR "/src/."
+RUN dotnet build "CodeRoute.csproj" -c Release -o /app/build
+
+FROM build AS publish
+RUN dotnet publish "CodeRoute.csproj" -c Release -o /app/publish /p:UseAppHost=false
+
+FROM base AS final
+WORKDIR /app
+COPY --from=publish /app/publish .
+ENTRYPOINT ["dotnet", "CodeRoute.dll"]
+>>>>>>> 972a5f04d34e25a551b9fd95054a6f81752db562
