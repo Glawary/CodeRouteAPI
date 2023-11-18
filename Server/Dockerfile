@@ -1,25 +1,20 @@
-# делать наш контейнер. Для сборки приложения используем dotnet-sdk
-# и назовём этот образ builder
-FROM mcr.microsoft.com/dotnet/sdk:7.0 AS builder
-# укажем директорию для нашего приложения внутри контейнера
-WORKDIR /Application
+FROM mcr.microsoft.com/dotnet/aspnet:7.0 AS base
+WORKDIR /app
 
-# Скопируем все файлы из проекта в файловую систему контейнера
-COPY . ./
-# Запустим restore для загрузки зависимостей
-RUN dotnet restore
-# Опубликуем собранный dll в папку "output"
-RUN dotnet publish -c Release -o output
+FROM mcr.microsoft.com/dotnet/sdk:7.0 AS build
+WORKDIR /src
+COPY ["CodeRoute.csproj", "."]
+RUN dotnet restore "./CodeRoute.csproj"
+COPY . .
+WORKDIR "/src/."
+RUN dotnet build "CodeRoute.csproj" -c Release -o /app/build
 
-# Теперь соберём образ, в котором наше приложение
-# будет запущено. Для запуска приложения достаточно
-# среды выполнения aspnet, без sdk
-FROM mcr.microsoft.com/dotnet/aspnet:7.0
-WORKDIR /Application
-# Скопируем файлы приложения из предыдущего образа
-COPY --from=builder /Application/output .
-# укажем команду, которая будет запускать приложение
+FROM build AS publish
+RUN dotnet publish "CodeRoute.csproj" -c Release -o /app/publish /p:UseAppHost=false
+
+FROM base AS final
+WORKDIR /app
+COPY --from=publish /app/publish .
 EXPOSE 5001/tcp
 ENV ASPNETCORE_URLS http://*:5001
 ENTRYPOINT ["dotnet", "CodeRoute.dll"]
-
